@@ -1,0 +1,8 @@
+<!-- snake.component.html -->
+<div class="game-container">
+    <!-- Griglia di gioco -->
+    <div *ngFor="let row of grid; let i = index" class="row">
+      <div *ngFor="let cell of row; let j = index" class="cell" [ngClass]="{'snake': isSnake(i, j), 'fruit': isFruit(i, j)}"></div>
+    </div>
+  </div>
+  

@@ -1,0 +1,26 @@
+/* snake.component.css */
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+    border: 1px solid black;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+  }
+  
+  .snake {
+    background-color: green;
+  }
+  
+  .fruit {
+    background-color: red;
+  }
+  
